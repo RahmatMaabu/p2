@@ -1,4 +1,3 @@
-import Dashboard from '@/components/Dashboard/Dashboard'
 import Kesiswaan from '@/components/Kesiswaan/Kesiswaan'
 import { getServerSession } from 'next-auth'
 import React from 'react'
