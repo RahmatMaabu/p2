@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import Navbar from '../Navigation/Navbar.tsx';
+import Navbar from '../Navigation/Navbar';
 import SideBar from '../Navigation/SideBar';
 import DashboardContent from './DashboardContent/DashboardContent';
 
