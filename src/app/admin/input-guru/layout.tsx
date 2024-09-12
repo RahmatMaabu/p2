@@ -6,7 +6,7 @@ export default function layout ({ children }:any)  {
   const session = getServerSession()
   return (
     <body className="fixed w-full h-screen bg-transparent overflow-hidden">
-    <Navbar session={session?.user?.name}/>
+    <Navbar />
       {children}
     </body>
   )
